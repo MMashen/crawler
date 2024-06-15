@@ -37,7 +37,7 @@ page = 7301
 page_zero = 7299
 
 if __name__=="__main__":
-    with open("data.txt", "w", encoding="utf-8") as file:
+    with open("data/data.txt", "w", encoding="utf-8") as file:
         while url and page_zero <= page:
             data = get_data(url)
             titles, next_url = parse_data(data)
