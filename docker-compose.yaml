@@ -1,0 +1,5 @@
+services:
+  ptt:
+    build: .
+    volumes:
+      - .:/app
